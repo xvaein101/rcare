@@ -32,6 +32,11 @@
 		<link data-minify="1" rel="stylesheet" id="mkhb-render-css" href="style/header_builder.css">
 		<link data-minify="1" rel="stylesheet" id="mkhb-row-css" href="style/header_buolder2.css">
 		<link data-minify="1" rel="stylesheet" id="mkhb-column-css" href="style/header_builder3.css">
+		<link data-minify="1" rel="stylesheet" id="popupo-maker-site-css" href="style/wp_content.css" type="text/css" media="all">
+		<link data-minify="1" rel="stylesheet" id="theme-options-css" href="style/assets.css" type="text/css" media="all">
+		<link data-minify="1" rel="stylesheet" id="mk-style-css" href="jupiter_child.css" type="text/css" media="all">
+		<link rel="https://api.w.org/" href="https:">
+		<link rel="wlwmanifest" >
 		
 		<style id="rs-plugin-setting-inline-css" type="text/css"></style>
 		<style id="theme-styles-inline-css" type="text/css">
@@ -43,6 +48,35 @@
 		<!-- Javascript -->
 		<script src="js/main.js"></script>
 		<script src="js/admin.js"></script>
-		
+		<script>
+			if (document.location.protocol != "https:"){
+				document.location.protocol = document.URL.replace(/^http:/i,  "https:");
+			}
+		</script>
+		<script data-minify="1" type="text/javascript" src="wp_enqueue.js"></script>
+		<script type="text/javascript">
+			WebFontConfig = {
+				timeout: 2000
+			}
+			if ( mk_typekit_id.length > 0 ){
+				WebFontConfig.typekit = {
+					id: mk_typekit_id
+				}
+			}
+			if ( mk_google_fonts.lenght > 0 ) {
+				WebFontConfig.google = {
+					families: mk_google_fonts
+				}
+			}
+			
+			if ( (mk_google_fonts.length > 0 || mk_typekit_id.length > 0) && navigator.userAgent.indexOf("Speed Insights") == -1 ) {
+				WebFont.load( WebFontConfig );
+			}
+		</script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/migrate.js"></script>
+		<script type="text/javascript" src="js/assests.js"></script>
+		<script type="text/javascript" src="js/themepunch.js"></script>
+			
 	</head>
 </html>
