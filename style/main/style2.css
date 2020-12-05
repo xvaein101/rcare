@@ -1,0 +1,227 @@
+	body {
+			background-color: #fff
+		}
+
+		.hb-custom-header #mk-page-introduce,
+		.mk-header {
+			background-color: #f7f7f7;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover
+		}
+
+		.hb-custom-header>div,
+		.mk-header-bg {
+			background-color: #fff
+		}
+
+		.mk-classic-nav-bg {
+			background-color: #fff
+		}
+
+		.master-holder-bg {
+			background-color: #fff
+		}
+
+		#mk-footer {
+			background-color: #fff
+		}
+
+		#mk-boxed-layout {
+			-webkit-box-shadow: 0 0 px rgba(0, 0, 0, );
+			-moz-box-shadow: 0 0 px rgba(0, 0, 0, );
+			box-shadow: 0 0 px rgba(0, 0, 0, )
+		}
+
+		.mk-news-tab .mk-tabs-tabs .is-active a,
+		.mk-fancy-title.pattern-style span,
+		.mk-fancy-title.pattern-style.color-gradient span:after,
+		.page-bg-color {
+			background-color: #fff
+		}
+
+		.page-title {
+			font-size: 20px;
+			color: #4d4d4d;
+			text-transform: uppercase;
+			font-weight: 400;
+			letter-spacing: 2px
+		}
+
+		.page-subtitle {
+			font-size: 14px;
+			line-height: 100%;
+			color: #a3a3a3;
+			font-size: 14px;
+			text-transform: none
+		}
+
+		.mk-header {
+			border-bottom: 1px solid #ededed
+		}
+
+		.header-style-1 .mk-header-padding-wrapper,
+		.header-style-2 .mk-header-padding-wrapper,
+		.header-style-3 .mk-header-padding-wrapper {
+			padding-top: 121px
+		}
+
+		.mk-process-steps[max-width~="950px"] ul::before {
+			display: none !important
+		}
+
+		.mk-process-steps[max-width~="950px"] li {
+			margin-bottom: 30px !important;
+			width: 100% !important;
+			text-align: center
+		}
+
+		.mk-event-countdown-ul[max-width~="750px"] li {
+			width: 90%;
+			display: block;
+			margin: 0 auto 15px
+		}
+
+		.compose-mode .vc_element-name .vc_btn-content {
+			height: auto !important
+		}
+
+		body {
+			font-family: Montserrat
+		}
+
+		body,
+		h4,
+		p:not(.form-row):not(.woocommerce-mini-cart__empty-message):not(.woocommerce-mini-cart__total):not(.woocommerce-mini-cart__buttons):not(.mk-product-total-name):not(.woocommerce-result-count),
+		.woocommerce-customer-details address {
+			font-family: Montserrat
+		}
+
+		h3 {
+			font-family: Caveat
+		}
+
+		@font-face {
+			font-family: 'star';
+			src: url(https://cecd.org.za/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot);
+			src: url('https://cecd.org.za/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot?#iefix') format('embedded-opentype'), url(https://cecd.org.za/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.woff) format('woff'), url(https://cecd.org.za/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.ttf) format('truetype'), url('https://cecd.org.za/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.svg#star') format('svg');
+			font-weight: 400;
+			font-style: normal
+		}
+
+		@font-face {
+			font-family: 'WooCommerce';
+			src: url(https://cecd.org.za/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot);
+			src: url('https://cecd.org.za/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot?#iefix') format('embedded-opentype'), url(https://cecd.org.za/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.woff) format('woff'), url(https://cecd.org.za/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.ttf) format('truetype'), url('https://cecd.org.za/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.svg#WooCommerce') format('svg');
+			font-weight: 400;
+			font-style: normal
+		}
+
+		p,
+		body {
+			font-weight: 400
+		}
+
+		.master-holder h4 {
+			font-size: 25px;
+			color: #141514;
+			font-weight: 300;
+			text-transform: ;
+			letter-spacing: 1px;
+			line-height: 50px
+		}
+
+		.master-holder h5 {
+			font-size: 24px;
+			letter-spacing: 1px;
+			line-height: 30px
+		}
+
+		table td {
+			text-align: left;
+			padding: 0;
+			font-size: 13px;
+			color: #060507;
+			line-height: 30px;
+			font-weight: 400
+		}
+
+		.master-holder h3 {
+			font-family: 'Caveat' !important
+		}
+
+		.mk-button--dimension-flat.text-color-light {
+			font-family: 'LettersforLearners' !important;
+			font-size: 18px
+		}
+
+		.mk-button--size-medium {
+			padding: 11px 19px !important;
+			line-height: 100%
+		}
+
+		.sliderorange {
+			font-family: 'Caveat' !important;
+			font-size: 45px
+		}
+
+		.slidergreen {
+			font-family: 'LettersforLearners' !important
+		}
+
+		.mk-footer-copyright {
+			line-height: 16px;
+			float: right;
+			padding: 25px 0 20px;
+			font-size: bold;
+			filter: alpha(opacity=@opacity * 100);
+			-moz-opacity: 80;
+			-khtml-opacity: 80;
+			opacity: 80;
+			opacity: .8
+		}
+
+		.mk-svg-icon-wrapper img,
+		.mk-svg-icon-wrapper svg {
+			display: none
+		}
+
+		.mk-header {
+			border-bottom: none !important
+		}
+
+		.mk-header-inner,
+		.a-sticky .mk-header-inner,
+		.header-style-2.a-sticky .mk-classic-nav-bg {
+			border-bottom: none !important
+		}
+
+		.hb-custom-header #mk-page-introduce,
+		.mk-header {
+			background-color: #fff;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover
+		}
+
+		div.wpforms-container-full .wpforms-form .wpforms-field-label {
+			font-size: 13px !important;
+			color: #060507 !important;
+			font-weight: 400 !important
+		}
+
+		#mk-footer .footer-wrapper {
+			padding: 30px 0;
+			display: none
+		}
+
+		@media (max-width:400px) and (min-width:200px) {
+			.master-holder h4 {
+				font-size: 18px !important;
+				color: #141514;
+				font-weight: 300;
+				text-transform: ;
+				letter-spacing: 1px;
+				line-height: 27px
+			}
+		}
